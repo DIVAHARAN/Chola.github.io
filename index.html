@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Divaharan D — Embedded Software and Electronics Hardware Design Engineer. STM32, Embedded C, RTOS, Altium PCB design and power electronics.">
+<title>Divaharan D | Embedded & Electronics Engineer</title>
+<style>
+:root{--bg:#0b1421;--panel:#122338;--panel2:#172d45;--text:#eef4fa;--muted:#a9bacb;--blue:#63b3ff;--line:#29445f;--max:1080px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,Segoe UI,Arial,sans-serif}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:var(--max);margin:auto;padding:0 24px}
+header{position:sticky;top:0;background:#0b1421ed;border-bottom:1px solid var(--line);backdrop-filter:blur(12px);z-index:5}
+nav{display:flex;justify-content:space-between;align-items:center;min-height:66px;gap:20px}.brand{font-weight:800;letter-spacing:.08em}.navlinks{display:flex;gap:20px;flex-wrap:wrap;font-size:14px}
+.hero{padding:92px 0 70px;background:radial-gradient(ellipse at 85% 10%,#1c527c66,transparent 40%),linear-gradient(135deg,#0b1421,#10243a)}
+.eyebrow{color:var(--blue);font-size:13px;text-transform:uppercase;letter-spacing:.16em;font-weight:700}
+h1{font-size:clamp(42px,7vw,72px);line-height:1.04;letter-spacing:-.04em;margin:16px 0}.lead{font-size:20px;color:var(--muted);max-width:760px}
+.tags{display:flex;flex-wrap:wrap;gap:9px;margin:26px 0}.tag{border:1px solid var(--line);padding:7px 12px;border-radius:99px;color:#d7e8f7;font-size:13px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;padding:12px 18px;border-radius:8px;font-weight:700;background:var(--blue);color:#061321}.btn.secondary{background:transparent;color:var(--text);border:1px solid var(--line)}
+section{padding:68px 0;border-top:1px solid #1d3044}h2{font-size:30px;margin:0 0 10px;letter-spacing:-.02em}.intro{color:var(--muted);max-width:760px;margin:0 0 30px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}.card h3{margin:0 0 9px;font-size:19px}.card p{margin:0;color:var(--muted)}.num{color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.12em}
+.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{background:var(--panel2);border:1px solid var(--line);padding:10px 13px;border-radius:8px;color:#dceaf6}
+.service-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.service{padding:18px;border-left:3px solid var(--blue);background:#102035}.service b{display:block;margin-bottom:4px}.service span{color:var(--muted);font-size:14px}
+.contact{background:linear-gradient(135deg,#10243a,#122d47);border:1px solid var(--line);padding:28px;border-radius:16px}.contact p{color:var(--muted)}footer{padding:28px 0;color:var(--muted);font-size:13px}
+@media(max-width:700px){.navlinks{display:none}.grid,.service-list{grid-template-columns:1fr}.hero{padding:65px 0 55px}.lead{font-size:18px}}
+</style></head>
+<body>
+<header><div class="wrap"><nav><a class="brand" href="#">DIVAHARAN D</a><div class="navlinks"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#services">Services</a><a href="#contact">Contact</a></div></nav></div></header>
+<main>
+<section class="hero" style="border:0"><div class="wrap">
+<div class="eyebrow">Engineering Portfolio · 2026</div>
+<h1>Embedded Software<br>& Electronics Design.</h1>
+<p class="lead">I work across embedded firmware and electronics hardware — from STM32-based control systems and Embedded C to multilayer PCB design, power electronics, prototype bring-up and validation.</p>
+<div class="tags"><span class="tag">Embedded C</span><span class="tag">STM32</span><span class="tag">RTOS</span><span class="tag">Altium PCB Design</span><span class="tag">Motor Control</span><span class="tag">Power Electronics</span></div>
+<div class="actions"><a class="btn" href="Divaharan_Engineering_Portfolio.pdf">Download Portfolio PDF</a><a class="btn secondary" href="#contact">Discuss a project</a></div>
+</div></section>
+<section id="about"><div class="wrap"><h2>About</h2><p class="intro">Embedded and electronics design engineer with around 3 years of practical experience in firmware development, PCB design, motor-control electronics, hardware integration and prototype testing. I enjoy solving problems at the intersection of hardware and software.</p>
+<div class="grid"><article class="card"><h3>Hardware design</h3><p>Multilayer PCB design, schematic capture, component selection, power distribution, isolation and board-level integration.</p></article><article class="card"><h3>Firmware development</h3><p>Embedded C, STM32/ESP32 platforms, peripheral integration, communication protocols and control-oriented firmware.</p></article></div></div></section>
+<section id="projects"><div class="wrap"><h2>Selected projects</h2><p class="intro">A selection of embedded and electronics work. Detailed files, schematics and performance data can be shared where project permissions allow.</p>
+<div class="grid">
+<article class="card"><div class="num">PROJECT 01</div><h3>STM32H745 Master Controller</h3><p>4-layer controller integrating dual isolated CAN, 4G connectivity, flash, isolated RS-485 power monitoring, Ethernet PHY, USB and USB Type-C interfaces.</p></article>
+<article class="card"><div class="num">PROJECT 02</div><h3>1.2 kW PMSM Motor Controller</h3><p>STM32F302-based control electronics with Hall feedback, current sensing, CAN communication and over-current, under-voltage and over-voltage protection.</p></article>
+<article class="card"><div class="num">PROJECT 03</div><h3>Brake Chopper Controller</h3><p>STM32G0B1 controller with isolated bus-voltage and current sensing, CAN communication and closed-loop braking-resistor control. Prototype tested with a 400 V DC supply and load in a controlled lab setup.</p></article>
+<article class="card"><div class="num">PROJECT 04</div><h3>Catcher Controller Module</h3><p>STM32G0B1 and BTM9021EP-based dual-motor controller architecture with SPI control, encoder feedback and limit-switch inputs.</p></article>
+<article class="card"><div class="num">PROJECT 05</div><h3>Isolated CAN Power Interface</h3><p>Isolated supply architecture using SN6501 transformer driver, transformer coupling and TPS76350 regulation, integrated with isolated CAN communication.</p></article>
+<article class="card"><div class="num">PROJECT 06</div><h3>Autonomous EV Pod Electronics</h3><p>Multi-board prototype development spanning controller, power-switch/comparator and catcher electronics, including component selection, PCB design, fabrication coordination, bring-up and fault analysis.</p></article>
+</div></div></section>
+<section id="skills"><div class="wrap"><h2>Technical skills</h2><p class="intro">Tools and technologies used across embedded and electronics development.</p>
+<div class="skills"><span class="skill">Embedded C</span><span class="skill">STM32H7 / F3 / G0</span><span class="skill">ESP32-C6</span><span class="skill">FreeRTOS</span><span class="skill">Altium Designer</span><span class="skill">KiCad</span><span class="skill">CAN</span><span class="skill">UART</span><span class="skill">SPI</span><span class="skill">I²C</span><span class="skill">RS-485</span><span class="skill">Ethernet</span><span class="skill">USB</span><span class="skill">Motor control</span><span class="skill">Power electronics</span><span class="skill">LTspice</span><span class="skill">PSpice</span><span class="skill">MATLAB</span><span class="skill">Hardware debugging</span><span class="skill">Prototype validation</span></div></div></section>
+<section id="services"><div class="wrap"><h2>Engineering services</h2><p class="intro">Available for suitable freelance assignments, prototype development support and embedded/electronics engineering opportunities.</p>
+<div class="service-list"><div class="service"><b>PCB design support</b><span>Schematic capture, component selection, 2–4 layer layout and fabrication outputs.</span></div><div class="service"><b>Embedded firmware</b><span>STM32/ESP32 firmware modules, peripheral integration and communication interfaces.</span></div><div class="service"><b>Motor-control electronics</b><span>Motor-driver interfaces, sensing, protection circuits and controller integration.</span></div><div class="service"><b>Prototype debugging</b><span>Board bring-up, fault isolation, interface troubleshooting and validation planning.</span></div><div class="service"><b>Engineering documentation</b><span>BOMs, interface descriptions, test procedures and handover documents.</span></div></div></div></section>
+<section id="contact"><div class="wrap"><div class="contact"><h2>Let's build something reliable.</h2><p>For embedded hardware/firmware roles, consulting or project collaborations:</p>
+<p><b>Email:</b> <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a><br><b>Phone:</b> +91 XXXXX XXXXX<br><b>LinkedIn:</b> <a href="#">Add your LinkedIn URL</a><br><b>GitHub:</b> <a href="#">Add your GitHub URL</a><br><b>Location:</b> Chennai, Tamil Nadu, India</p>
+<p style="font-size:13px">Replace the sample contact details before publishing. Add only project photographs and technical details that you are authorized to disclose.</p>
+</div></div></section>
+</main><footer><div class="wrap">© 2026 Divaharan D · Embedded Software & Electronics Hardware Design</div></footer>
+</body></html>
